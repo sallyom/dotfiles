@@ -1,0 +1,1 @@
+/usr/bin/ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o PasswordAuthentication=no -i /home/somalley/.ssh/libra.pem $@

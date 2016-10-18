@@ -1,0 +1,11 @@
+Host github.com
+  User git
+  IdentitiesOnly no
+
+Host *.amazonaws.com
+  User root
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  UserKnownHostsFile ~/.ssh/aws_known_hosts  
+  IdentityFile ~/.ssh/libra.pem
+  ForwardAgent yes
